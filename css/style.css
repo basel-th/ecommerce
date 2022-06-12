@@ -1,0 +1,400 @@
+*{margin:0px;padding: 0px;}
+
+body{/*background-color: hsla(0, 0%, 95%, 0.507);*/  direction:ltr; }
+
+.r{float:right;}
+
+.l{float:left;}
+
+.c{clear: both;}
+
+.w{ width: 1000px; margin:0px auto ;}
+
+.drakblue{color: rgb(26, 29, 180);}
+
+.lightblue{color: rgb(86, 202, 235);}
+
+.red{color: rgb(228, 52, 29);}
+
+.pink{color: rgb(253, 162, 162);}
+
+/* STRAT HEADER TOP STALYLE BY ENG.BASEL AHMED */
+   
+.headertop{
+    background-image: url('../images/slide_01.jpg');
+    background-color: rgba(16, 15, 15, 0.69);
+    height: 661px;
+    background-size: cover; 
+}
+
+.head{
+    font-size: 77px;
+    font-family: " Times New Roman", Times, serif;
+    color: #f5f5f5;
+    padding: 8px;
+    position: relative;
+    /* right: -249px; */
+    top: 279px;
+    margin-left: 0px;
+    border-bottom-color: beige;
+    /*border-bottom: 2px solid #ddd;
+    border-top: 2px solid #eee;*/
+    overflow: hidden;
+    text-align: center;
+   /* background-color: #224a6d;*/
+}
+
+.head h4{
+    color: #f33f3f;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.head h2{
+    color: #fff;
+	font-size: 62px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.head2{
+    font-size: 55px;
+    position: relative;
+    left: 400px;
+    color: rgb(244, 178, 5);
+    margin-left: 226px;
+}
+
+.logo{padding:27px;}
+
+/* END HEADER TOP STALYLE BY ENG.BASEL AHMED */
+
+
+/* STRAT MENUBAR STALYLE BY ENG.BASEL AHMED */ 
+
+.menuBar{
+    background-color: #555f5fd3;
+    height: auto;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(254, 254, 254);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.menuBar h2{
+    color: #eee;
+    float: left;
+    padding: 25px 0px;
+    margin: 0px 0px 0px 70px ;
+    font-size: 40px;
+}
+
+.menuBar h2 span{color:#2ecc71 }
+
+.menuBar ul{ list-style:none ;}
+
+.menuBar ul li{
+    float: left;
+    padding: 25px 0px;
+    margin-left: 25px;
+}
+
+.menuBar ul li a{
+    text-decoration: none;
+    font-family: serif;
+    color: rgb(254, 254, 254);
+    padding: 10px;
+    font-size: 26px;
+}
+
+.menuBar ul  li a:hover{
+    /*background-color: rgba(124, 216, 106, 0.493);*/
+    color: rgb(164, 230, 199);
+    /*border-radius:20px; 
+    border-bottom: 2px solid rgb(18, 170, 18);
+    border-top: 2px solid rgb(18, 170, 18);*/
+    border-bottom: 2px solid rgb(243, 247, 243);
+
+}
+
+/* END MENUBAR STALYLE BY ENG.BASEL AHMED */ 
+
+
+/* STRAT SEARCH AREAR STALYLE BY ENG.BASEL AHMED */
+
+
+.search{
+     background-color:#f5f5f5;
+     border-top:4px solid #c97676;
+     border-bottom: 3px solid #ccc;
+}
+
+.sreachForm{
+   /* position: relative;
+    right: 15%;
+    left: -50%; */
+    padding: 10px 0px;
+}
+
+.sreachForm input[type=text]{
+    padding:10px 0px;
+    font-family:tahoma;  
+    color: rgb(102, 97, 97);
+    width: 150px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+.search input[type=submit]{
+    width: 70px;
+    height: 35px;
+    border-radius: 11px;
+    color: #191b1b;
+    background-color: #f5f0f0;
+    font-size: 20px;
+    /* font-family: serif; */
+    margin-left: 40px;
+}
+
+.search input[type=text]{width: 200px;height: 20px;border-radius:9px;}
+
+.sochil ul{list-style: none; margin-top: 2px; padding: 5px 1px;}
+
+.sochil ul li{float: right;padding: 13px 80px;}
+
+.sochil ul li a{color: rgb(27, 23, 23);}
+
+.sochil ul li a:hover{color: rgb(247, 14, 14);}
+
+/* END SREACH AREAR STALYLE BY ENG.BASEL AHMED */
+
+
+/* STRAT CONTENT STALYLE BY ENG.BASEL AHMED */
+
+.content{margin-bottom:20px;}
+
+.content ul{list-style: none;}
+
+.content ul li{
+    background-color: #ebe8e8;
+    border: 3px solid rgb(166, 172, 172);
+    float: left;
+    margin-left: 13px;
+    margin: 50px 50px 50px 81px;
+    height: 550px;
+    width: 377px;
+}
+
+.prodect{margin: 0px; padding: 0px;}
+
+#pro_img{margin-bottom: 12px;width: 413px;height: 270px;}
+
+#pro_img img{
+   /* margin-bottom: 120px; */
+    width: 377px;
+    margin: 0px;
+    border-radius: 0px 0px 0px 0px;
+    /* box-shadow: 10px 10px 12px #ccc; */
+    height: 400px;
+}
+
+#pro_img img:hover{opacity: 0.7;}
+
+#pro_title a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    color: rgb(27 23 23);
+    /* margin: 129px; */
+    margin-top: 138px;
+    margin-left: 10px;
+}
+
+#pro_buy{float: right; margin: 15px;}
+
+#pro_buy button{
+    width: 130px;
+    height: 42px;
+    font-size: 22px;
+    font-family: -webkit-body;
+    border-radius: 7px;
+    background-color: rgb(255, 249, 249);
+}
+
+/* END CONTENT STALYLE BY ENG.BASEL AHMED */
+
+
+/* STRAT FOOTER STALYLE BY ENG.BASEL AHMED */
+
+.footer{
+    background-color:hsl(180deg 6% 35%);
+    padding: 25px 10px;
+    border-top:3px solid #ccc;
+    border-bottom: 2px solid rgb(143, 145, 143);
+}
+
+.footerMenu ul{list-style:none;}
+
+.footerMenu ul li{float: left; margin: 15px;}
+
+.footerMenu ul li a{
+    padding-left: 0px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: tahoma;
+    color: rgb(164, 230, 199);
+    text-transform: uppercase;
+}
+
+.footerMenu ul li a:hover{
+    /*border-radius:20px; 
+    border-bottom: 2px solid rgb(18, 170, 18);
+    border-top: 2px solid rgb(18, 170, 18);*/
+    border-bottom: 2px solid rgb(243, 247, 243);
+}
+
+.footerlogo{float: right;}
+
+.footerlogo h2{color: #eee;
+    float: left;
+    /*padding: 25px 0px;
+    margin: 0px 0px 0px 70px ;*/
+    font-size: 35px;
+    margin: 0px 45px;
+}
+
+.footerlogo  h2 span{color:#2ecc71 }
+
+.CopyRight{
+    background-color: #cad4dd;
+    color: #fff;
+    font-family: tahoma;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(27 23 23);
+    text-transform: uppercase;
+}
+
+.error{
+    background-color: #6aefeabd;
+    border: 1px solid #4fdac0;
+    padding: 10px;
+    font-family: Tahoma;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+/* END FOOTER STALYLE BY ENG.BASEL AHMED */
+
+
+
+
+/* STRAT CART STALYLE  BY ENG.BASEL AHMED */
+
+.cart1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: tahoma;
+    color: #ac7414;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 21px;
+}
+
+.cart{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: tahoma;
+    color: #214654;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 21px;
+}
+    
+.cart a {color: #c97676; }
+
+/* END CART STALYLE  BY ENG.BASEL AHMED */
+
+
+/* STRAT DETIALS STALYLE  BY ENG.BASEL AHMED */
+
+.plane{background-color: #fefefe;border: 2px solid #c3b5b5;}
+
+.plane_title{
+    text-align: center;
+    background-color:#ddd ;
+    border-bottom: 2px solid #eee;
+    padding: 8px;
+    font-size: 23px;
+    font-family: tahoma;
+    color: #555;
+    font-weight: bold;
+}
+
+.plane_body{margin:10px;font-size: 20px;font-family: tahoma;color: #555;}
+
+#p_info{padding: 5px;border-bottom: 1px solid #eee;}
+
+.lable{float: left ;width:100px;text-align:right;margin-top: 5px;}
+
+.plane_body input[type=text]{border:1px solid #eee;padding:5px;font-family:tahoma;margin-right:5px;}
+
+.paypal{
+    /*margin: 5%;*/
+    border-radius: 157px;
+    /* background-color: #961313; */
+    width: 400px;
+    /* position: relative;
+    right: -55px; 
+    left: 31%;*/
+    border: 2px solid #9e9595;
+    -webkit-border-radius: 157px;
+    -moz-border-radius: 157px;
+    -o-border-radius: 157px;
+    -webkit-width: 400px;
+    -moz-width: 400px;
+    -o-width: 400px;
+    -webkit-border: 2px solid #9e9595;
+    -moz-border: 2px solid #9e9595;
+    -o-border: 2px solid #9e9595;
+}
+ 
+/* END DETIALS  STALYLE  BY ENG.BASEL AHMED */
+
+
+
+/* STRAT STYLE CARD.PHP BY BASEL AHMED */
+
+.table{
+    width: 80%;
+    border: 2px solid #eee;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    /* right: -10%; */
+    left: 10%;
+    background-color:#ffffff80;
+}
+
+.b-b-r{border-bottom: 2px solid #eee;border-right: 2px solid #eee;}
+
+.b-b{border-bottom: 2px solid #eee;}
+
+.b-b-l{border-bottom: 2px solid #eee;border-left: 2px solid #eee;}
+
+.b-r{border-right: 2px solid #eee;}
+
+.b-l{border-left: 2px solid #eee;}
+
+
+ /* END STYLE CARD.PHP BY BASEL AHMED */
